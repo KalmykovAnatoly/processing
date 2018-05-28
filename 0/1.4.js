@@ -8,6 +8,8 @@ function draw() {
     let mouse = createVector(mouseX, mouseY)
     let center = createVector(width/2, height/2)
     mouse.sub(center);
+    mouse.normalize();
+    mouse.mult(50);
 
     translate(width/2,height/2);
     strokeWeight(2);

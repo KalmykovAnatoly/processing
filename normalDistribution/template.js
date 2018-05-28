@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(640, 640);
-    w = new mouseWalker(4,10);
+    w = new monteCarloWalker();
 }
 
 function draw() {
